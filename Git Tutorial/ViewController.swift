@@ -16,6 +16,8 @@ let str="Learn Git completly"
         print("Today I will Learn\(str)")
         stringreverse(str)
         
+        print("new commit")
+        
     }
     func stringreverse(_ str:String){
         print(str.reversed())
