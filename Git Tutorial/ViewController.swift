@@ -11,12 +11,17 @@ import UIKit
 class ViewController: UIViewController {
 let str="Learn Git completly"
     let anotherstr="Newly added string"
+    
+    
+    @IBOutlet var s: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Today I will Learn\(str)")
         stringreverse(str)
         
         print("new commit")
+        s.text="\(stringreverse(str))"
         
     }
     func stringreverse(_ str:String){
