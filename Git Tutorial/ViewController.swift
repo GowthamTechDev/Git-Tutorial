@@ -9,9 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+let str="Learn Git completly"
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Today I will Learn\(str)")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
