@@ -10,10 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 let str="Learn Git completly"
+    let anotherstr="Newly added string"
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Today I will Learn\(str)")
-        // Do any additional setup after loading the view, typically from a nib.
+        stringreverse(str)
+        
+    }
+    func stringreverse(_ str:String){
+        print(str.reversed())
     }
 
     override func didReceiveMemoryWarning() {
